@@ -65,7 +65,7 @@ async function connect() {
     // http://localhost:5173
     const io = new Server(server, {
       cors: {
-        origin: ["https://deluxe-daffodil-dd2278.netlify.app","https://backend-doc.onrender.com"],
+        origin: ["https://deluxe-daffodil-dd2278.netlify.app","https://backend-doc.onrender.com","https://tubular-llama-6952db.netlify.app"],
         methods: ["GET", "POST"],
       },
     });
